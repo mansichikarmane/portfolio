@@ -1,0 +1,25 @@
+
+Rich Text:  Rich Text Format (RTF) is a file format that allows for text formatting like font size, colors, bolding, italics, etc.
+
+Plain Text: Contains no formatting, only line breaks and spacing.
+
+
+
+
+ls = list directory
+
+pwd = print directory
+
+cd = home directory
+
+cd .. = go back
+
+cd foldername =  change directory into specific folder
+
+cd [tab] = autocomplete 
+
+mkdir = make directory
+
+mv = moves/renames file
+
+mv "source file" "destination"
