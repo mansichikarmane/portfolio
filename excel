@@ -1,9 +1,0 @@
-
-Excel PivotTables
-
-- Goal is to go from a large data set into a smaller set to help see the data at a quick glance
-- Drag field names into PivotTable Fields: "Filters", "Columns", "Rows" or "Values"
-- Double click key data to show data set based on that information alone ex: click high sales number to be shown each sale made by a certain salesperson
-- Create easy PivotChart by clicking into PivotTable > Analyze > PivotChart
-- PivotChart vs Basic Excel Chart: PivotChart is connected to PivotTable, so any changes made to PivotTable will be changed on the PivorChart
-
