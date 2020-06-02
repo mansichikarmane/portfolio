@@ -1,0 +1,17 @@
+Public Sub LoopSample()
+Dim i As Integer
+
+i = 1
+
+Do While i <= 25
+    If ActiveCell.Value > 15 Then
+        ActiveCell.Interior.Color = RGB(200, 50, 200)
+    
+    End If
+    
+    ActiveCell.Offset(1, 0).Select
+    
+    i = i + 1
+    
+    Loop
+End Sub
