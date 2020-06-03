@@ -1,0 +1,4 @@
+Making a Text Input Box
+
+Public Sub UserSortInput()    Dim promptMSG As String    Dim userInput As String        promptMSG = "Enter a numeric value to sort..." & vbCrLf & _    "1 --- Sort by Division" & vbCrLf & _    "2 --- Sort by Category" & vbCrLf & _    "3 --- Sort by Total"        userInput = InputBox(promptMSG)    End Sub 
+
