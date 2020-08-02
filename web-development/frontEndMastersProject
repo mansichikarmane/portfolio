@@ -1,0 +1,84 @@
+/* $Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+
+$VeryLightGray: hsl(0, 0%, 98%);
+$VeryDarkBlue: hsl(234, 12%, 34%);
+$GrayishBlue: hsl(229, 6%, 66%); */
+
+body {
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+background-color: hsl(0, 0%, 98%);
+min-height: 100vh;
+padding-top: 80px;
+} 
+
+
+main { 
+max-width: 1440px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+    h1 {
+        text-align: center;
+        font-size: 2.5em;
+        font-weight: 200;
+        color: hsl(234, 12%, 34%);
+    }
+        span {
+            font-weight: 600;
+        }
+    
+    p {
+        color: hsl(229, 6%, 66%);
+        max-width: calc(1440px/2);
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+        article {
+            width: 25%;
+            height: 300px;
+            display: inline-block; 
+            background-color: white;
+            text-align: left;
+            position: relative;
+            padding: 15px;
+            padding-right: 30px;
+            color: hsl(229, 6%, 66%);
+            border-radius: 5px;
+            box-shadow: 0px 10px 20px lightgray;
+            margin: 15px;
+            vertical-align: middle;
+        }
+            .teal {
+                border-top: 5px solid hsl(180, 62%, 55%);
+                margin-top: 200px;
+            }
+            .red {
+                border-top: 5px solid hsl(0, 78%, 62%);
+               
+                
+            }
+            .yellow {
+                border-top: 5px solid hsl(34, 97%, 64%);
+                margin-top: 200px;
+            }
+            .blue {
+                border-top: 5px solid hsl(212, 86%, 64%);
+                margin-top: -70px;
+            }
+
+        h2 {
+            color: hsl(234, 12%, 34%);
+            margin-bottom: 5px;
+        }
+
+        img {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+        }
